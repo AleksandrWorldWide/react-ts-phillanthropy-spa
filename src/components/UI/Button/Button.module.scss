@@ -5,9 +5,21 @@
 	line-height: 18px;
 	padding: 16px 24px;
 	cursor: pointer;
+	width: 100%;
 }
 
 .orange {
 	color: #090909;
 	background: #FF9C08;
+}
+
+.dark {
+	color: #FFFFFF;
+	background: #090909;
+}
+
+.light {
+	color: #090909;
+	background: #FFFFFF;
+	border: inherit;
 }
