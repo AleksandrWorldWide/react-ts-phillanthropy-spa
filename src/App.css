@@ -1,4 +1,12 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: 'DM Sans';
+  font-weight: 400;
 }
 

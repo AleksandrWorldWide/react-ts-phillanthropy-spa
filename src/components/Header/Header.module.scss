@@ -1,0 +1,45 @@
+.Header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+	.container {
+		width: 1268px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo {
+		margin-right: 40px;
+		display: flex;
+		align-items: center;
+	}
+	.navigation {
+		display: flex;
+		align-items: center;
+		ul {
+			display: flex;
+			list-style-type: none;
+			column-gap: 26px;
+			li {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 30px;
+				color: #222222;
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.donate {
+		display: flex;
+		align-items: center;
+		
+	}
+	.basket {
+		margin-right: 24px;
+	}
+}
