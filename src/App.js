@@ -4,6 +4,7 @@ import './App.css';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import WebFont from 'webfontloader'
+import { Main } from './components/Main/Main';
 
 const App = ({title}) => {
 
@@ -22,6 +23,7 @@ const App = ({title}) => {
   return (
     <div className="App">
 		<Header/>
+		<Main/>
 		<Footer/>
     </div>
   );

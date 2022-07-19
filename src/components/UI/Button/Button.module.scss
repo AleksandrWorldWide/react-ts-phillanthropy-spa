@@ -11,15 +11,17 @@
 .orange {
 	color: #090909;
 	background: #FF9C08;
+	border: inherit;
 }
 
 .dark {
 	color: #FFFFFF;
 	background: #090909;
+	border: inherit;
 }
 
 .light {
 	color: #090909;
 	background: #FFFFFF;
-	border: inherit;
+	border: 1px solid #F0ECE8;
 }
