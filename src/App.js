@@ -4,6 +4,9 @@ import './App.css';
 import WebFont from 'webfontloader'
 import { Main } from './components/Main/Main';
 import { About } from './components/About/About';
+import { Results } from './components/Results/Results';
+import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
 
 const App = ({title}) => {
 
@@ -21,8 +24,10 @@ const App = ({title}) => {
 
   return (
     <div className="App">
+		<Header/>
 		{/* <Main/> */}
 		{/* <About/> */}
+		<Results/>
     </div>
   );
 }

@@ -58,6 +58,42 @@ export const data = {
 		]
 	},
 
+	results: {
+		content: {
+			title: 'Take a look at the big impact we have done',
+			items: [
+				{url: 'heart', count: '500m', describe: 'Liters of water'},
+				{url: 'ball', count: '10,000+', describe: 'Toys delivered'},
+				{url: 'hands', count: '7000+', describe: 'Houses built'},
+				{url: 'school', count: '2000+', describe: 'Schools built'}
+			],
+			btn: {
+				name: 'Donate now',
+				theme: 'orange'
+			},
+			url: 'boy'
+		},
+
+		video: {
+			title: 'We have helped over 200 vulnerable communities worldwide',
+			btn: [
+				{
+					name: 'Donate now', 
+					theme: 'dark'
+				},
+				{
+					name: 'About our charity',
+					theme: 'light'
+				}
+			],
+			url: '',
+			items: [
+				{title: 'The goal and mission behind', text: 'Cursus metus aliquam eleifend mi in nulla posuere faucibus interdum posuere lorem ipsum dolor sit amet hendrerit dolor magna eget est lorem. Auctor urna nunc id cursus metus aliquam eleifend. Dictumst quisque sagittis purus sit amet volutpat consequa.'},
+				{title: 'How our charity got started', text: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus et malesuada fames urna nec tincidunt praesent semper feugiat metus aliquam eleifend mi in nulla posuere sollicitudin pretium aenean pharetra magna ac placerat.'}
+			]
+		}
+	},
+
 	footer: {
 		menu: [
 			{id: 0, name: 'Home'},

@@ -2,15 +2,14 @@ import css from './Main.module.scss'
 import { useSelector } from 'react-redux/es/exports'
 import shortid from 'shortid'
 import { Button } from '../UI/Button/Button'
-import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
+
 export const Main = () => {
 
 	const data = useSelector((state) => state.main)
 
 	return (
 		<>
-			<Header/>
 			<main className={css.Main}>
 				<div className={css.content}>
 					<div className={css.body}>
