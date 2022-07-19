@@ -37,6 +37,27 @@ export const data = {
 		]
 	},
 
+	about: {
+		title: 'We are here to support vulnerable communities',
+		subtitle: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua molestie a iaculis at erat pellentesque adipiscing commodo elit at.',
+		text: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus et malesuada fames urna nec tincidunt praesent semper feugiat metus aliquam eleifend mi in nulla posuere sollicitudin pretium aenean pharetra magna ac placerat.',
+		list: [
+			{id: '0', text: 'Excepteur sint occaecat cupidatat non proident'},
+			{id: '1', text: 'Pellentesque elit ullamcorper dignissim'},
+			{id: '2', text: 'Nibh mauris cursus mattis molestie a iaculis'}
+		],
+		btn: [
+			{
+				name: 'Donate now', 
+				theme: 'orange'
+			},
+			{
+				name: 'About us',
+				theme: 'light'
+			}
+		]
+	},
+
 	footer: {
 		menu: [
 			{id: 0, name: 'Home'},
