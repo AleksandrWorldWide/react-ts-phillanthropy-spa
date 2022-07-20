@@ -94,6 +94,19 @@ export const data = {
 		}
 	},
 
+	help: {
+		title: 'What are we doing to assist these communities?',
+		btn: {name: 'Donate now', theme: 'orange'},
+		cards: [
+			{id: '0', icon: 'house', title: 'House & shelter', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum tempus hac.'},
+			{id: '1', icon: 'heart', title: 'Love & support', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons elementum tempus hac.'},
+			{id: '2', icon: 'basket', title: 'Food & groceries', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons elementum tempus hac.'},
+			{id: '3', icon: 'tree', title: 'Environmental help', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons elementum tempus hac.'},
+			{id: '4', icon: 'school', title: 'Education', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons elementum tempus hac.'},
+			{id: '5', icon: 'health', title: 'Health & insurance', subtitle: 'Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons elementum tempus hac.'}
+		]
+	},
+
 	footer: {
 		menu: [
 			{id: 0, name: 'Home'},

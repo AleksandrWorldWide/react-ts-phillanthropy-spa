@@ -7,6 +7,7 @@ import { About } from './components/About/About';
 import { Results } from './components/Results/Results';
 import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
+import { Help } from './components/Help/Help';
 
 const App = ({title}) => {
 
@@ -27,7 +28,9 @@ const App = ({title}) => {
 		<Header/>
 		{/* <Main/> */}
 		{/* <About/> */}
-		<Results/>
+		{/* <Results/> */}
+		<Help/>
+		<Footer/>
     </div>
   );
 }

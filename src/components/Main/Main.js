@@ -2,7 +2,7 @@ import css from './Main.module.scss'
 import { useSelector } from 'react-redux/es/exports'
 import shortid from 'shortid'
 import { Button } from '../UI/Button/Button'
-import { Footer } from '../Footer/Footer'
+
 
 export const Main = () => {
 
@@ -57,7 +57,6 @@ export const Main = () => {
 						</ul>
 					</div>
 			</main>
-			<Footer/>
 		</>
 	)
 }
