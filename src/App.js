@@ -8,6 +8,7 @@ import { Results } from './components/Results/Results';
 import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
 import { Help } from './components/Help/Help';
+import { Testimonials } from './components/Testimonials/Testimonials';
 
 const App = ({title}) => {
 
@@ -29,7 +30,8 @@ const App = ({title}) => {
 		{/* <Main/> */}
 		{/* <About/> */}
 		{/* <Results/> */}
-		<Help/>
+		{/* <Help/> */}
+		<Testimonials/>
 		<Footer/>
     </div>
   );

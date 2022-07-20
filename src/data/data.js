@@ -107,6 +107,23 @@ export const data = {
 		]
 	},
 
+	testimonials: {
+		man: {
+			url: 'girls',
+			describe: '“Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.”',
+			name: 'Amara Onai',
+			sitizen: 'Citizen of South Africa'
+		},
+		title: 'See how we are making a difference',
+		subtitle: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis etolme netus et malesuada fames urna nec tincidunt praesen',
+		items:  [
+			{id:'0', name: 'Excepteur sint occaecat cupidatat non proident'},
+			{id:'1', name: 'Pellentesque elit ullamcorper dignissim'},
+			{id:'2', name: 'Nibh mauris cursus mattis molestie a iaculis'}
+		],
+		btn: {name: 'Donate now', theme: 'orange'}
+	},
+
 	footer: {
 		menu: [
 			{id: 0, name: 'Home'},
