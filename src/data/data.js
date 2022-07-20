@@ -124,6 +124,18 @@ export const data = {
 		btn: {name: 'Donate now', theme: 'orange'}
 	},
 
+	news: {
+		title: 'Read our latest news',
+		items: [
+			{url: 'food', type: 'Articles', date: 'Feb 11, 2022', title: 'What to donate to a food bank and what to avoid ?', etc: 'Read more'},
+			{url: 'clothes', type: 'Resources', date: 'Feb 11, 2022', title: '13 ways to give to charity without breaking your budget', etc: 'Read more'}
+		],
+		btn: [
+			{name: 'Donate now', theme: 'orange'},
+			{name: 'Read more news', theme: 'light'}
+		]
+	},
+
 	footer: {
 		menu: [
 			{id: 0, name: 'Home'},

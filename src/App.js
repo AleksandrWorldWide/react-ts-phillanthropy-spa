@@ -9,6 +9,7 @@ import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
 import { Help } from './components/Help/Help';
 import { Testimonials } from './components/Testimonials/Testimonials';
+import { News } from './components/News/News';
 
 const App = ({title}) => {
 
@@ -31,7 +32,8 @@ const App = ({title}) => {
 		{/* <About/> */}
 		{/* <Results/> */}
 		{/* <Help/> */}
-		<Testimonials/>
+		{/* <Testimonials/> */}
+		<News/>
 		<Footer/>
     </div>
   );
