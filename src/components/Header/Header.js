@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux'
 import { Button } from '../UI/Button/Button'
 import css from './Header.module.scss'
 import shortid from 'shortid'
+import { Link } from "react-router-dom";
 
 export const Header = () => {
 
@@ -10,22 +11,22 @@ export const Header = () => {
 	return (
 		<header className={css.Header}>
 			<div className={css.container}>
-				<nav className={css.navigation}>
+				<div className={css.navigation}>
 					<div className={css.logo}>
 						<img src={require(`../../assets/icons/${data.url}.png`)} alt={data.url} />
 					</div>
-					<ul className={css.navItems}>
+					<nav className={css.navItems}>
 						{
 							data.menu.map((item, id)=> {
 								return (
-									<li key={shortid.generate()}>
+									<Link to={item.link} key={shortid.generate()}>
 										{item.name}
-									</li>
+									</Link>
 								)
 							})
 						}
-					</ul>
-				</nav>
+					</nav>
+				</div>
 				<div className={css.donate}>
 					<div className={css.basket}>
 						<img src={require('../../assets/icons/basket.png')} alt='basket'/>

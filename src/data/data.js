@@ -2,12 +2,12 @@ export const data = {
 	header: {
 		url: 'logo',
 		menu: [
-			{id: 0, name: 'Home'},
-			{id: 1, name: 'About us'},
-			{id: 2, name: 'Our results'},
-			{id: 3, name: 'How we help?'},
-			{id: 4, name: 'Testimonials'},
-			{id: 5, name: 'New & Resources'},
+			{id: 0, name: 'Home', link: ''},
+			{id: 1, name: 'About us', link: 'about'},
+			{id: 2, name: 'Our results', link: 'results'},
+			{id: 3, name: 'How we help?', link: 'help'},
+			{id: 4, name: 'Testimonials', link: 'testimonials'},
+			{id: 5, name: 'New & Resources', link: 'news'},
 		],
 		btn: {
 			name: 'Donate now',

@@ -10,6 +10,7 @@ import { Footer } from './components/Footer/Footer'
 import { Help } from './components/Help/Help';
 import { Testimonials } from './components/Testimonials/Testimonials';
 import { News } from './components/News/News';
+import { BrowserRouter as BR, Routes, Route } from 'react-router-dom';
 
 const App = ({title}) => {
 
@@ -27,14 +28,20 @@ const App = ({title}) => {
 
   return (
     <div className="App">
-		<Header/>
-		{/* <Main/> */}
-		{/* <About/> */}
-		{/* <Results/> */}
-		{/* <Help/> */}
-		{/* <Testimonials/> */}
-		<News/>
-		<Footer/>
+		
+		<BR>
+			<Header/>
+			<Routes>
+				<Route path='/'  element={<Main/>}/>
+				<Route path='help' element={<Help/>}/>
+				<Route path='about' element={<About/>}/>
+				<Route path='news' element={<News/>}/>
+				<Route path='results' element={<Results/>}/>
+				<Route path='testimonials' element={<Testimonials/>}/>
+			</Routes>
+			<Footer/>
+		</BR>
+		
     </div>
   );
 }

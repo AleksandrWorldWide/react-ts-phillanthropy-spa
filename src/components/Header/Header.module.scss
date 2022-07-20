@@ -18,16 +18,15 @@
 	.navigation {
 		display: flex;
 		align-items: center;
-		ul {
+		nav {
 			display: flex;
-			list-style-type: none;
 			column-gap: 26px;
-			li {
+			a {
 				font-weight: 400;
 				font-size: 18px;
 				line-height: 30px;
 				color: #222222;
-				cursor: pointer;
+				text-decoration: none;
 				&:hover {
 					text-decoration: underline;
 				}
